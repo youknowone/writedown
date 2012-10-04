@@ -6,7 +6,7 @@
 
 # If tag is 'appstore1.2', set this 'appstore'
 # If tag is 'v1.3.1', set this 'v'
-tagprefix=''
+tagprefix='appstore-'
 
 # Deploy configuration name
 configuration='Release'
