@@ -1,0 +1,3 @@
+[submodule "osxbuildtool"]
+	path = osxbuildtool
+	url = git://github.com/youknowone/osxbuildtool.git
