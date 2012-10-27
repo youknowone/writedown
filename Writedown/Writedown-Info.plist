@@ -3,31 +3,34 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
-	<string>English</string>
+	<string>en</string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
 			<key>CFBundleTypeExtensions</key>
 			<array>
-				<string>mdtext</string>
+				<string>md</string>
 				<string>markdown</string>
 				<string>mkdn</string>
-				<string>md</string>
+				<string>mdtext</string>
 				<string>text</string>
 				<string>txt</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
 			<string>DocumentIcon</string>
+			<key>CFBundleTypeMIMETypes</key>
+			<array>
+				<string>text/markdown</string>
+				<string>text/x-markdown</string>
+			</array>
 			<key>CFBundleTypeName</key>
 			<string>DocumentType</string>
-			<key>CFBundleTypeOSTypes</key>
-			<array>
-				<string>????</string>
-			</array>
 			<key>CFBundleTypeRole</key>
-			<string>Viewer</string>
+			<string>Editor</string>
+			<key>LSTypeIsPackage</key>
+			<false/>
 			<key>NSDocumentClass</key>
-			<string>MarkdownDocument</string>
+			<string>WDDocument</string>
 		</dict>
 	</array>
 	<key>CFBundleExecutable</key>
@@ -35,7 +38,7 @@
 	<key>CFBundleIconFile</key>
 	<string>ApplicationIcon</string>
 	<key>CFBundleIdentifier</key>
-	<string>kr.dahlia.Readown</string>
+	<string>org.youknowone.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -43,13 +46,19 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.5</string>
+	<string>1.1</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.0.5</string>
+	<string>1.1</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.productivity</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>${MACOSX_DEPLOYMENT_TARGET}</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2012 Jeong YunWon. All rights reserved.</string>
 	<key>NSMainNibFile</key>
-	<string>MarkdownDocument</string>
+	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 </dict>

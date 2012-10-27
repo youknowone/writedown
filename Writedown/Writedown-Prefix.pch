@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'Writedown' target in the 'Writedown' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+    #import <FoundationExtension/FoundationExtension.h>
+#endif

@@ -13,7 +13,7 @@ configuration='Release'
 
 # Target name
 # If your project have applicaiton target name 'YourApp', set this 'YourApp'
-target='Readown'
+target='Writedown'
 
 # Application name
 # If your app name is not same to target name, change this.
@@ -23,5 +23,5 @@ appname="$target"
 # Codesign
 # You need '3rd Party Mac Developer Installer: <Company Name>' codesign to deploy your app to appstore
 #codesign="3rd Party Mac Developer Installer"
-codesign=''
+codesign='3rd Party Mac Developer Installer: 3rddev Inc.'
 

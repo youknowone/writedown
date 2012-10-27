@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3855AF88163B0B12005584CD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3855AF87163B0B12005584CD /* Cocoa.framework */; };
+		3855AF92163B0B12005584CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3855AF90163B0B12005584CD /* InfoPlist.strings */; };
+		3855AF94163B0B12005584CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3855AF93163B0B12005584CD /* main.m */; };
+		3855AF98163B0B12005584CD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3855AF96163B0B12005584CD /* Credits.rtf */; };
+		3855AF9B163B0B12005584CD /* WDDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 3855AF9A163B0B12005584CD /* WDDocument.m */; };
+		3855AF9E163B0B12005584CD /* WDDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3855AF9C163B0B12005584CD /* WDDocument.xib */; };
+		3855AFA1163B0B12005584CD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3855AF9F163B0B12005584CD /* MainMenu.xib */; };
+		3855AFAC163B0B13005584CD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3855AFAB163B0B13005584CD /* SenTestingKit.framework */; };
+		3855AFAD163B0B13005584CD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3855AF87163B0B12005584CD /* Cocoa.framework */; };
+		3855AFB5163B0B13005584CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3855AFB3163B0B13005584CD /* InfoPlist.strings */; };
+		3855AFB8163B0B13005584CD /* WritedownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3855AFB7163B0B13005584CD /* WritedownTests.m */; };
+		3855AFC4163B0B6E005584CD /* Markdown.m in Sources */ = {isa = PBXBuildFile; fileRef = 3855AFC3163B0B6E005584CD /* Markdown.m */; };
+		3855AFC7163B0BA2005584CD /* ApplicationIcon.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 3855AFC5163B0BA2005584CD /* ApplicationIcon.iconset */; };
+		3855AFC8163B0BA2005584CD /* DocumentIcon.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 3855AFC6163B0BA2005584CD /* DocumentIcon.iconset */; };
+		3855AFCB163B0C17005584CD /* Markdown.php in Resources */ = {isa = PBXBuildFile; fileRef = 3855AFC9163B0C17005584CD /* Markdown.php */; };
+		3855AFCC163B0C17005584CD /* SmartyPants.php in Resources */ = {isa = PBXBuildFile; fileRef = 3855AFCA163B0C17005584CD /* SmartyPants.php */; };
+		3855AFD1163BB6E1005584CD /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3855AFD0163BB6E1005584CD /* WebKit.framework */; };
+		3855AFD3163BBCA7005584CD /* template.html in Resources */ = {isa = PBXBuildFile; fileRef = 3855AFD2163BBCA7005584CD /* template.html */; };
+		3855AFE1163BBDF1005584CD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3855AFE0163BBDF1005584CD /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3855AFAE163B0B13005584CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3855AF7A163B0B12005584CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3855AF82163B0B12005584CD;
+			remoteInfo = Writedown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3855AF83163B0B12005584CD /* Writedown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Writedown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3855AF87163B0B12005584CD /* Cocoa.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3855AF8A163B0B12005584CD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3855AF8B163B0B12005584CD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3855AF8C163B0B12005584CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3855AF8F163B0B12005584CD /* Writedown-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Writedown-Info.plist"; sourceTree = "<group>"; };
+		3855AF91163B0B12005584CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3855AF93163B0B12005584CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3855AF95163B0B12005584CD /* Writedown-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Writedown-Prefix.pch"; sourceTree = "<group>"; };
+		3855AF97163B0B12005584CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		3855AF99163B0B12005584CD /* WDDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDDocument.h; sourceTree = "<group>"; };
+		3855AF9A163B0B12005584CD /* WDDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDDocument.m; sourceTree = "<group>"; };
+		3855AF9D163B0B12005584CD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WDDocument.xib; sourceTree = "<group>"; };
+		3855AFA0163B0B12005584CD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3855AFAA163B0B13005584CD /* WritedownTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WritedownTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3855AFAB163B0B13005584CD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3855AFB2163B0B13005584CD /* WritedownTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WritedownTests-Info.plist"; sourceTree = "<group>"; };
+		3855AFB4163B0B13005584CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3855AFB6163B0B13005584CD /* WritedownTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WritedownTests.h; sourceTree = "<group>"; };
+		3855AFB7163B0B13005584CD /* WritedownTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WritedownTests.m; sourceTree = "<group>"; };
+		3855AFC2163B0B6E005584CD /* Markdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Markdown.h; sourceTree = "<group>"; };
+		3855AFC3163B0B6E005584CD /* Markdown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Markdown.m; sourceTree = "<group>"; };
+		3855AFC5163B0BA2005584CD /* ApplicationIcon.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; name = ApplicationIcon.iconset; path = Markdown/ApplicationIcon.iconset; sourceTree = SOURCE_ROOT; };
+		3855AFC6163B0BA2005584CD /* DocumentIcon.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; name = DocumentIcon.iconset; path = Markdown/DocumentIcon.iconset; sourceTree = SOURCE_ROOT; };
+		3855AFC9163B0C17005584CD /* Markdown.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = Markdown.php; sourceTree = "<group>"; };
+		3855AFCA163B0C17005584CD /* SmartyPants.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SmartyPants.php; sourceTree = "<group>"; };
+		3855AFD0163BB6E1005584CD /* WebKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		3855AFD2163BBCA7005584CD /* template.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = template.html; sourceTree = "<group>"; };
+		3855AFE0163BBDF1005584CD /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = Pods/build/Debug/libPods.a; sourceTree = "<group>"; };
+		3855AFE6163BFC5F005584CD /* Writedown.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Writedown.entitlements; sourceTree = "<group>"; };
+		FCBA60D37C5C4DF8AF7F4226 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3855AF80163B0B12005584CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3855AFD1163BB6E1005584CD /* WebKit.framework in Frameworks */,
+				3855AF88163B0B12005584CD /* Cocoa.framework in Frameworks */,
+				3855AFE1163BBDF1005584CD /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3855AFA6163B0B13005584CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3855AFAC163B0B13005584CD /* SenTestingKit.framework in Frameworks */,
+				3855AFAD163B0B13005584CD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3855AF78163B0B12005584CD = {
+			isa = PBXGroup;
+			children = (
+				3855AF8D163B0B12005584CD /* Writedown */,
+				3855AFC1163B0B6E005584CD /* Markdown */,
+				3855AFB0163B0B13005584CD /* WritedownTests */,
+				3855AF86163B0B12005584CD /* Frameworks */,
+				3855AF84163B0B12005584CD /* Products */,
+				FCBA60D37C5C4DF8AF7F4226 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		3855AF84163B0B12005584CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3855AF83163B0B12005584CD /* Writedown.app */,
+				3855AFAA163B0B13005584CD /* WritedownTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3855AF86163B0B12005584CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3855AFD0163BB6E1005584CD /* WebKit.framework */,
+				3855AF87163B0B12005584CD /* Cocoa.framework */,
+				3855AFAB163B0B13005584CD /* SenTestingKit.framework */,
+				3855AFE0163BBDF1005584CD /* libPods.a */,
+				3855AF89163B0B12005584CD /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3855AF89163B0B12005584CD /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3855AF8A163B0B12005584CD /* AppKit.framework */,
+				3855AF8B163B0B12005584CD /* CoreData.framework */,
+				3855AF8C163B0B12005584CD /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3855AF8D163B0B12005584CD /* Writedown */ = {
+			isa = PBXGroup;
+			children = (
+				3855AFE6163BFC5F005584CD /* Writedown.entitlements */,
+				3855AF99163B0B12005584CD /* WDDocument.h */,
+				3855AF9A163B0B12005584CD /* WDDocument.m */,
+				3855AF9C163B0B12005584CD /* WDDocument.xib */,
+				3855AF9F163B0B12005584CD /* MainMenu.xib */,
+				3855AF8E163B0B12005584CD /* Supporting Files */,
+			);
+			path = Writedown;
+			sourceTree = "<group>";
+		};
+		3855AF8E163B0B12005584CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3855AF8F163B0B12005584CD /* Writedown-Info.plist */,
+				3855AF90163B0B12005584CD /* InfoPlist.strings */,
+				3855AF93163B0B12005584CD /* main.m */,
+				3855AF95163B0B12005584CD /* Writedown-Prefix.pch */,
+				3855AF96163B0B12005584CD /* Credits.rtf */,
+				3855AFD2163BBCA7005584CD /* template.html */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3855AFB0163B0B13005584CD /* WritedownTests */ = {
+			isa = PBXGroup;
+			children = (
+				3855AFB6163B0B13005584CD /* WritedownTests.h */,
+				3855AFB7163B0B13005584CD /* WritedownTests.m */,
+				3855AFB1163B0B13005584CD /* Supporting Files */,
+			);
+			path = WritedownTests;
+			sourceTree = "<group>";
+		};
+		3855AFB1163B0B13005584CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3855AFB2163B0B13005584CD /* WritedownTests-Info.plist */,
+				3855AFB3163B0B13005584CD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3855AFC1163B0B6E005584CD /* Markdown */ = {
+			isa = PBXGroup;
+			children = (
+				3855AFC2163B0B6E005584CD /* Markdown.h */,
+				3855AFC3163B0B6E005584CD /* Markdown.m */,
+				3855AFC9163B0C17005584CD /* Markdown.php */,
+				3855AFCA163B0C17005584CD /* SmartyPants.php */,
+				3855AFC5163B0BA2005584CD /* ApplicationIcon.iconset */,
+				3855AFC6163B0BA2005584CD /* DocumentIcon.iconset */,
+			);
+			path = Markdown;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3855AF82163B0B12005584CD /* Writedown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3855AFBB163B0B13005584CD /* Build configuration list for PBXNativeTarget "Writedown" */;
+			buildPhases = (
+				3855AF7F163B0B12005584CD /* Sources */,
+				3855AF80163B0B12005584CD /* Frameworks */,
+				3855AF81163B0B12005584CD /* Resources */,
+				698B3FA387BB459CAD1005E2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Writedown;
+			productName = Writedown;
+			productReference = 3855AF83163B0B12005584CD /* Writedown.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3855AFA9163B0B13005584CD /* WritedownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3855AFBE163B0B13005584CD /* Build configuration list for PBXNativeTarget "WritedownTests" */;
+			buildPhases = (
+				3855AFA5163B0B13005584CD /* Sources */,
+				3855AFA6163B0B13005584CD /* Frameworks */,
+				3855AFA7163B0B13005584CD /* Resources */,
+				3855AFA8163B0B13005584CD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3855AFAF163B0B13005584CD /* PBXTargetDependency */,
+			);
+			name = WritedownTests;
+			productName = WritedownTests;
+			productReference = 3855AFAA163B0B13005584CD /* WritedownTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3855AF7A163B0B12005584CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WD;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = youknowone.org;
+			};
+			buildConfigurationList = 3855AF7D163B0B12005584CD /* Build configuration list for PBXProject "Writedown" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3855AF78163B0B12005584CD;
+			productRefGroup = 3855AF84163B0B12005584CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3855AF82163B0B12005584CD /* Writedown */,
+				3855AFA9163B0B13005584CD /* WritedownTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3855AF81163B0B12005584CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3855AF92163B0B12005584CD /* InfoPlist.strings in Resources */,
+				3855AF98163B0B12005584CD /* Credits.rtf in Resources */,
+				3855AF9E163B0B12005584CD /* WDDocument.xib in Resources */,
+				3855AFA1163B0B12005584CD /* MainMenu.xib in Resources */,
+				3855AFC7163B0BA2005584CD /* ApplicationIcon.iconset in Resources */,
+				3855AFC8163B0BA2005584CD /* DocumentIcon.iconset in Resources */,
+				3855AFCB163B0C17005584CD /* Markdown.php in Resources */,
+				3855AFCC163B0C17005584CD /* SmartyPants.php in Resources */,
+				3855AFD3163BBCA7005584CD /* template.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3855AFA7163B0B13005584CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3855AFB5163B0B13005584CD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3855AFA8163B0B13005584CD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		698B3FA387BB459CAD1005E2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3855AF7F163B0B12005584CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3855AF94163B0B12005584CD /* main.m in Sources */,
+				3855AF9B163B0B12005584CD /* WDDocument.m in Sources */,
+				3855AFC4163B0B6E005584CD /* Markdown.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3855AFA5163B0B13005584CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3855AFB8163B0B13005584CD /* WritedownTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3855AFAF163B0B13005584CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3855AF82163B0B12005584CD /* Writedown */;
+			targetProxy = 3855AFAE163B0B13005584CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3855AF90163B0B12005584CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3855AF91163B0B12005584CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3855AF96163B0B12005584CD /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3855AF97163B0B12005584CD /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		3855AF9C163B0B12005584CD /* WDDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3855AF9D163B0B12005584CD /* en */,
+			);
+			name = WDDocument.xib;
+			sourceTree = "<group>";
+		};
+		3855AF9F163B0B12005584CD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3855AFA0163B0B12005584CD /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		3855AFB3163B0B13005584CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3855AFB4163B0B13005584CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3855AFB9163B0B13005584CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3855AFBA163B0B13005584CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3855AFBC163B0B13005584CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCBA60D37C5C4DF8AF7F4226 /* Pods.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Writedown/Writedown.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Writedown/Writedown-Prefix.pch";
+				INFOPLIST_FILE = "Writedown/Writedown-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Pods/build/Debug\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3855AFBD163B0B13005584CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCBA60D37C5C4DF8AF7F4226 /* Pods.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Writedown/Writedown.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Writedown/Writedown-Prefix.pch";
+				INFOPLIST_FILE = "Writedown/Writedown-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Pods/build/Debug\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3855AFBF163B0B13005584CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Writedown.app/Contents/MacOS/Writedown";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Writedown/Writedown-Prefix.pch";
+				INFOPLIST_FILE = "WritedownTests/WritedownTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3855AFC0163B0B13005584CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Writedown.app/Contents/MacOS/Writedown";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Writedown/Writedown-Prefix.pch";
+				INFOPLIST_FILE = "WritedownTests/WritedownTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3855AF7D163B0B12005584CD /* Build configuration list for PBXProject "Writedown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3855AFB9163B0B13005584CD /* Debug */,
+				3855AFBA163B0B13005584CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3855AFBB163B0B13005584CD /* Build configuration list for PBXNativeTarget "Writedown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3855AFBC163B0B13005584CD /* Debug */,
+				3855AFBD163B0B13005584CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3855AFBE163B0B13005584CD /* Build configuration list for PBXNativeTarget "WritedownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3855AFBF163B0B13005584CD /* Debug */,
+				3855AFC0163B0B13005584CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3855AF7A163B0B12005584CD /* Project object */;
+}
