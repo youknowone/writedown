@@ -38,7 +38,7 @@
 	<key>CFBundleIconFile</key>
 	<string>ApplicationIcon</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.youknowone.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>org.youknowone.Writedown</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>

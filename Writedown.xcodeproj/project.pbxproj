@@ -39,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3855AF83163B0B12005584CD /* Writedown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Writedown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3855AF83163B0B12005584CD /* Writedown!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Writedown!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3855AF87163B0B12005584CD /* Cocoa.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		3855AF8A163B0B12005584CD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		3855AF8B163B0B12005584CD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -110,7 +110,7 @@
 		3855AF84163B0B12005584CD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3855AF83163B0B12005584CD /* Writedown.app */,
+				3855AF83163B0B12005584CD /* Writedown!.app */,
 				3855AFAA163B0B13005584CD /* WritedownTests.octest */,
 			);
 			name = Products;
@@ -214,7 +214,7 @@
 			);
 			name = Writedown;
 			productName = Writedown;
-			productReference = 3855AF83163B0B12005584CD /* Writedown.app */;
+			productReference = 3855AF83163B0B12005584CD /* Writedown!.app */;
 			productType = "com.apple.product-type.application";
 		};
 		3855AFA9163B0B13005584CD /* WritedownTests */ = {
@@ -462,7 +462,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/Pods/build/Debug\"",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME)!";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -480,7 +480,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/Pods/build/Debug\"",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME)!";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

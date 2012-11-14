@@ -18,7 +18,7 @@ target='Writedown'
 # Application name
 # If your app name is not same to target name, change this.
 # If you set this 'MyApp', output is 'MyApp.app' and 'MyApp.pkg'
-appname="$target"
+appname="$target!"
 
 # Codesign
 # You need '3rd Party Mac Developer Installer: <Company Name>' codesign to deploy your app to appstore
