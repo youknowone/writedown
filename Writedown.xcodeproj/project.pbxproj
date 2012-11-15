@@ -26,6 +26,7 @@
 		3855AFD1163BB6E1005584CD /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3855AFD0163BB6E1005584CD /* WebKit.framework */; };
 		3855AFD3163BBCA7005584CD /* template.html in Resources */ = {isa = PBXBuildFile; fileRef = 3855AFD2163BBCA7005584CD /* template.html */; };
 		3855AFE1163BBDF1005584CD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3855AFE0163BBDF1005584CD /* libPods.a */; };
+		388DE1161655081E00139B31 /* template.css in Resources */ = {isa = PBXBuildFile; fileRef = 388DE1151655081E00139B31 /* template.css */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		3855AFD2163BBCA7005584CD /* template.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = template.html; sourceTree = "<group>"; };
 		3855AFE0163BBDF1005584CD /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = Pods/build/Debug/libPods.a; sourceTree = "<group>"; };
 		3855AFE6163BFC5F005584CD /* Writedown.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Writedown.entitlements; sourceTree = "<group>"; };
+		388DE1151655081E00139B31 /* template.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = template.css; sourceTree = "<group>"; };
 		FCBA60D37C5C4DF8AF7F4226 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -160,6 +162,7 @@
 				3855AF95163B0B12005584CD /* Writedown-Prefix.pch */,
 				3855AF96163B0B12005584CD /* Credits.rtf */,
 				3855AFD2163BBCA7005584CD /* template.html */,
+				388DE1151655081E00139B31 /* template.css */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				3855AFCB163B0C17005584CD /* Markdown.php in Resources */,
 				3855AFCC163B0C17005584CD /* SmartyPants.php in Resources */,
 				3855AFD3163BBCA7005584CD /* template.html in Resources */,
+				388DE1161655081E00139B31 /* template.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,7 +402,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -429,7 +433,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;

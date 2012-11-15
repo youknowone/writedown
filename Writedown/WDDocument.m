@@ -125,7 +125,9 @@ void WDFileEventCallback(ConstFSEventStreamRef streamRef,
 @synthesize editView=_editView;
 
 - (void)awakeFromNib {
-    self->_template = [[NSString alloc] initWithContentsOfURL:@"res://template.html".resourceURL encoding:NSUTF8StringEncoding error:NULL];
+    NSString *template = [NSString stringWithContentsOfURL:@"res://template.html".resourceURL encoding:NSUTF8StringEncoding error:NULL];
+    NSString *css = [NSString stringWithContentsOfURL:@"res://template.css".resourceURL encoding:NSUTF8StringEncoding error:NULL];
+    self->_template = [[template stringByReplacingOccurrencesOfString:@"{{ style }}" withString:css] retain];
     if (self.source) {
         self.editView.string = self.source;
     }
