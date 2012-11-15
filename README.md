@@ -8,9 +8,8 @@ Markdown processor is imported from [Readown][2], using [PHP Markdown Extra][3] 
 Download                                                               {#download}
 ------
 
-Download from Appstore will be available soon!
-
->   <https://github.com/youknowone/Writedown/downloads>
+  * Appstore: <https://itunes.apple.com/app/id574184591>
+  * Preview: <https://github.com/youknowone/Writedown/downloads>
   
 File extensions
 -----------------
