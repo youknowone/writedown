@@ -27,6 +27,7 @@
 		3855AFD3163BBCA7005584CD /* template.html in Resources */ = {isa = PBXBuildFile; fileRef = 3855AFD2163BBCA7005584CD /* template.html */; };
 		3855AFE1163BBDF1005584CD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3855AFE0163BBDF1005584CD /* libPods.a */; };
 		388DE1161655081E00139B31 /* template.css in Resources */ = {isa = PBXBuildFile; fileRef = 388DE1151655081E00139B31 /* template.css */; };
+		388DE12816550F2400139B31 /* WDPreferenceWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 388DE12716550F2400139B31 /* WDPreferenceWindowController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,8 @@
 		3855AFE0163BBDF1005584CD /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = Pods/build/Debug/libPods.a; sourceTree = "<group>"; };
 		3855AFE6163BFC5F005584CD /* Writedown.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Writedown.entitlements; sourceTree = "<group>"; };
 		388DE1151655081E00139B31 /* template.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = template.css; sourceTree = "<group>"; };
+		388DE12616550F2400139B31 /* WDPreferenceWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDPreferenceWindowController.h; sourceTree = "<group>"; };
+		388DE12716550F2400139B31 /* WDPreferenceWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDPreferenceWindowController.m; sourceTree = "<group>"; };
 		FCBA60D37C5C4DF8AF7F4226 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -146,6 +149,8 @@
 				3855AFE6163BFC5F005584CD /* Writedown.entitlements */,
 				3855AF99163B0B12005584CD /* WDDocument.h */,
 				3855AF9A163B0B12005584CD /* WDDocument.m */,
+				388DE12616550F2400139B31 /* WDPreferenceWindowController.h */,
+				388DE12716550F2400139B31 /* WDPreferenceWindowController.m */,
 				3855AF9C163B0B12005584CD /* WDDocument.xib */,
 				3855AF9F163B0B12005584CD /* MainMenu.xib */,
 				3855AF8E163B0B12005584CD /* Supporting Files */,
@@ -333,6 +338,7 @@
 				3855AF94163B0B12005584CD /* main.m in Sources */,
 				3855AF9B163B0B12005584CD /* WDDocument.m in Sources */,
 				3855AFC4163B0B6E005584CD /* Markdown.m in Sources */,
+				388DE12816550F2400139B31 /* WDPreferenceWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,10 +428,9 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "";
-				SDKROOT = macosx;
+				SDKROOT = macosx10.7;
 			};
 			name = Debug;
 		};
@@ -447,9 +452,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PROVISIONING_PROFILE = "";
-				SDKROOT = macosx;
+				SDKROOT = macosx10.7;
 			};
 			name = Release;
 		};

@@ -9,6 +9,7 @@
 #import "Markdown.h"
 
 #import "WDDocument.h"
+#import "WDPreferenceWindowController.h"
 
 @interface WDDocument ()
 
@@ -126,7 +127,7 @@ void WDFileEventCallback(ConstFSEventStreamRef streamRef,
 
 - (void)awakeFromNib {
     NSString *template = [NSString stringWithContentsOfURL:@"res://template.html".resourceURL encoding:NSUTF8StringEncoding error:NULL];
-    NSString *css = [NSString stringWithContentsOfURL:@"res://template.css".resourceURL encoding:NSUTF8StringEncoding error:NULL];
+    NSString *css = [WDPreferenceWindowController themeString];
     self->_template = [[template stringByReplacingOccurrencesOfString:@"{{ style }}" withString:css] retain];
     if (self.source) {
         self.editView.string = self.source;
