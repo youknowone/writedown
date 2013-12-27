@@ -1,16 +1,16 @@
-Writedown
+Writedown!
 =======
 
 [Writedown][0] is [Markdown][1] editor for OS X.
 
 Markdown processor is imported from [Readown][2], using [PHP Markdown Extra][3] and [PHP SmartyPants Typographer][4]
 
-Download                                                               {#download}
+Download
 ------
 
   * Appstore: <https://itunes.apple.com/app/id574184591>
   * Preview: <https://github.com/youknowone/Writedown/downloads>
-  
+
 File extensions
 -----------------
 
